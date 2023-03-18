@@ -1,9 +1,9 @@
 .boxes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
 }
 
-.boxes div {
+.boxes>div {
   border: 1px solid black;
   padding: 1em;
 }
